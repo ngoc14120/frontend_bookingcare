@@ -1,0 +1,45 @@
+div._loading_overlay_wrapper {
+  position: unset;
+
+  ._loading_overlay_overlay {
+    z-index: 10000000;
+  }
+}
+
+.manage-booking-container {
+  position: relative;
+  min-height: 100vh;
+  width: calc(100% - 240px);
+  left: 240px;
+  transition: all 0.5s ease;
+  .m-s-title {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .manage-booking-body {
+    padding: 10px 20px;
+    .table-manage-booking {
+      margin-top: 20px;
+      table,
+      th,
+      td {
+        border: 1px solid #333;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 5px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1240px) {
+  .manage-booking-container {
+    width: calc(100% - 60px);
+    left: 60px;
+  }
+}

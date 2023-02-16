@@ -1,0 +1,25 @@
+.manage-service-container {
+  position: relative;
+  min-height: 100vh;
+  width: calc(100% - 240px);
+  left: 240px;
+  transition: all 0.5s ease;
+  .user-redux-body {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    .btn-add-user {
+      right: 0;
+      .btn {
+        height: 36px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 1240px) {
+  .manage-service-container {
+    width: calc(100% - 60px);
+    left: 60px;
+  }
+}

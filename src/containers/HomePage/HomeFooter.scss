@@ -1,0 +1,65 @@
+.section-group {
+  &.home-footer {
+    background-color: #4c6575;
+    height: auto !important;
+  }
+  .section-container {
+    .footer-top {
+      display: flex;
+      color: white;
+      margin-bottom: 30px;
+      .footer-top-content {
+        width: 33.33333%;
+        .footer-header {
+          margin: 16px 0;
+          font-size: 18px;
+          font-weight: 600;
+        }
+        .connection-img {
+          display: flex;
+          a {
+            width: 60px;
+            height: 60px;
+            text-decoration: none;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+        .footer-title {
+          font-size: 16px;
+          .title-group {
+            span {
+              line-height: 30px;
+              a {
+                text-decoration: none;
+              }
+            }
+            .title-group-item {
+              font-weight: 600;
+            }
+            .supporting-policies {
+              font-size: 14px;
+              font-weight: 600;
+            }
+            .working-time-img {
+              padding: 16px;
+              width: 200px;
+              height: 170px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.footer-bottom {
+  background-color: #395261;
+  padding: 30px 0 20px;
+  color: white;
+}

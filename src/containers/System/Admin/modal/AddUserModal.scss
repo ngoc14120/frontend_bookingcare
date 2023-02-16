@@ -1,0 +1,22 @@
+.booking-modal-center {
+  .booking-modal-header {
+    background-color: rgb(95, 106, 160);
+    padding: 12px;
+    .left {
+      color: white;
+      padding: 0 10px;
+    }
+    .right {
+      padding: 0 10px;
+      float: right;
+    }
+  }
+  .booking-modal-footer {
+    padding: 0 20px 20px 10px;
+    float: right;
+  }
+}
+
+.ReactModal__Overlay {
+  z-index: 1100 !important;
+}

@@ -1,0 +1,84 @@
+.detail-dentist {
+  height: 100%;
+  padding: 30px 0;
+  .detail-dentist-container {
+    width: 1200px;
+    margin: 0 auto;
+    .detail-dentist-body {
+      display: flex;
+      .detail-dentist-left {
+        color: #007bff;
+        width: 35%;
+        background-color: #f5f5f0;
+        .customize-border {
+          .outer-bg {
+            overflow: hidden;
+            .bg-img {
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-color: #eee;
+              height: 400px;
+              max-width: 100%;
+              transition: 0.9s ease-in-out;
+              &:hover {
+                transform: scale(1.06);
+              }
+            }
+          }
+        }
+        .customize-content {
+          padding: 26px 10px;
+          font-size: 18px;
+        }
+      }
+      .detail-dentist-right {
+        width: 65%;
+        padding: 12px 40px;
+        .detail-dentist-info {
+          font-size: 16px;
+          color: #323634;
+          ul {
+            margin-left: 40px;
+            li {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.dentist-schedule {
+  margin-top: 10px;
+  .dentist-schedule-selection {
+    border: none;
+    outline: none;
+    background-color: #f5f5f0;
+    border-bottom: 1px solid #333;
+    color: #2407ff;
+  }
+  .schedule-section {
+    .schedule-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 10px 0;
+    }
+    .btn-dentist-schedule {
+      margin: 2px;
+      width: 125px;
+      border: none;
+      background-color: lightblue;
+      border-radius: 5px;
+      &:hover {
+        background-color: cornflowerblue;
+      }
+    }
+    .schedule-citation {
+      padding: 0 10px;
+      font-size: 16px;
+      color: #323634;
+    }
+  }
+}

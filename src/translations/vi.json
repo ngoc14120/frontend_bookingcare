@@ -1,0 +1,44 @@
+{
+  "homeheader": {
+    "clinic": "CƠ SỞ Y TẾ",
+    "chooseclinic": "Chọn phòng khám",
+    "specialist": "CHUYÊN KHOA",
+    "choosespecialist": "Tìm bác sĩ theo dịch vụ",
+    "service": "DỊCH VỤ",
+    "chooseservice": "Chọn gói làm răng",
+    "doctor": "BÁC SĨ",
+    "choosedoctor": "Chọn bác sĩ",
+    "support": "Giúp đỡ",
+    "welcome": "Xin chào, "
+  },
+  "menu": {
+    "admin": {
+      "manage-user": " Quản lý người dùng",
+      "manage-doctor": "Quản lý bác sĩ",
+      "manage-admin": "Quản lý Admin",
+      "crud": "CRUD người dùng",
+      "crud-redux": "CRUD Redux",
+      "clinic": "Phòng khám",
+      "manage-clinic": "Quản lý phòng khám",
+      "specialty": "Chuyên khoa",
+      "manage-specialty": "Quản lý chuyên khoa",
+      "handbook": "Cẩm nang",
+      "manage-handbook": "Quản lý Cẩm nang"
+    }
+  },
+  "manage-user": {
+    "add": "them moi nguoi dung",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "first-name": "Tên",
+    "last-name": "Họ",
+    "phone-number": "Số điện thoại",
+    "address": "Địa chỉ",
+    "gender": "Giới tính",
+    "position": "Chức danh",
+    "role": "vai trò",
+    "image": "Ảnh đại diện",
+    "save": "Lưu",
+    "edit": "sửa"
+  }
+}

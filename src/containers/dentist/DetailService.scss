@@ -1,0 +1,39 @@
+.detail-service {
+  height: 100%;
+  margin-bottom: 50px;
+  .detail-service-img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #eee;
+    height: 600px;
+    max-width: 100%;
+    transition: 0.9s ease-in-out;
+  }
+  .detail-service-container {
+    width: 1200px;
+    margin: 0 auto;
+    .detail-service-body {
+      display: flex;
+      flex-direction: column;
+      .detail-service-name {
+        margin: 10px 0;
+        h2 {
+          font-weight: 600;
+          color: #1f5252;
+        }
+      }
+      .detail-service-info {
+        color: #323634;
+        font-size: 18px;
+        img {
+          width: 1000px;
+          margin-left: 60px;
+        }
+        ul {
+          margin-left: 50px;
+        }
+      }
+    }
+  }
+}

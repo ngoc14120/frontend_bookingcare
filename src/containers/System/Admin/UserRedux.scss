@@ -1,0 +1,68 @@
+.preview-image-container {
+  .label-upload {
+    padding: 5px;
+    background: #dddd;
+    border-radius: 3px;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .preview-image {
+    height: 50px;
+    max-width: 100%;
+    border: 1px solid #dddd;
+    background: center center no-repeat;
+    background-size: contain;
+    cursor: pointer;
+  }
+}
+
+.user-redux-container {
+  position: relative;
+  min-height: 100vh;
+  width: calc(100% - 240px);
+  left: 240px;
+  transition: all 0.5s ease;
+  .user-redux-body {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    .btn-add-user {
+      right: 0;
+      .btn {
+        height: 36px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 1240px) {
+  .user-redux-container {
+    width: calc(100% - 60px);
+    left: 60px;
+  }
+}
+.btn-edit {
+  background: transparent;
+  color: orange;
+  border: 1px solid orange;
+  outline: none;
+  width: 50px;
+  margin-right: 4 px;
+  &:hover {
+    background-color: transparent;
+    color: orange;
+  }
+}
+.btn-delete {
+  background: transparent;
+  color: red;
+  border: 1px solid red;
+  outline: none;
+  width: 50px;
+  &:hover {
+    background-color: transparent;
+    color: red;
+  }
+}

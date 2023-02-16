@@ -1,0 +1,45 @@
+{
+  "homeheader": {
+    "clinic": "HEALTH FACILITIES",
+    "specialist": "SPECIALIST",
+    "service": "SERVICE",
+    "doctor": "DOCTOR",
+    "chooseclinic": "Choose a clinic",
+    "choosespecialist": "Find doctors by service",
+    "chooseservice": "Choose a dental package",
+    "choosedoctor": "Choose a doctor",
+    "support": "Support",
+    "welcome": "Welcome, "
+  },
+
+  "menu": {
+    "admin": {
+      "manage-user": "Users system",
+      "manage-doctor": "Manage Doctors",
+      "manage-admin": "Manage Admin",
+      "crud": "CRUD users",
+      "crud-redux": "CRUD Redux",
+      "clinic": "Clinic",
+      "manage-clinic": "Manage Clinic",
+      "specialty": "Specialty",
+      "manage-specialty": "Manage Specialty",
+      "handbook": "Handbook",
+      "manage-handbook": "Manage Handbook"
+    }
+  },
+  "manage-user": {
+    "add": "Add a new user",
+    "email": "Email",
+    "password": "Password",
+    "first-name": "First Name",
+    "last-name": "Last Name",
+    "phone-number": "Phone Number",
+    "address": "Address",
+    "gender": "Gender",
+    "position": "Position",
+    "role": "RoleID",
+    "image": "Avata",
+    "save": "Save",
+    "edit": "update"
+  }
+}
